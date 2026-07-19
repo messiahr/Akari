@@ -22,6 +22,7 @@
         latexmk
         biber
         titlesec
+        sourcesanspro
         ;
     })
   ];
