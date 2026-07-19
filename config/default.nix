@@ -14,5 +14,14 @@
     lazygit
     fzf
     fd
+    (texlive.combine {
+      inherit (texlive)
+        scheme-medium
+        collection-latexextra
+        collection-latexrecommended
+        latexmk
+        biber
+        ;
+    })
   ];
 }
