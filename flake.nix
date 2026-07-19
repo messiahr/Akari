@@ -25,6 +25,7 @@
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
+          config.permittedInsecurePackages = [ "pnpm-9.15.9" ];
         };
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
