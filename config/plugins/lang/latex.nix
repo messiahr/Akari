@@ -14,7 +14,7 @@
       }
     ];
 
-    treesitter.settings.highlight.disable = [ "latex" ];
+    treesitter.highlight.disable = [ "latex" ];
   };
 
   extraConfigVim = ''
