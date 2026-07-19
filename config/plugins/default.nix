@@ -44,6 +44,7 @@
     ./lang/docker.nix
     ./lang/html.nix
     ./lang/json.nix
+    ./lang/latex.nix
     ./lang/lua.nix
     ./lang/markdown.nix
     ./lang/nix.nix
