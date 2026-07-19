@@ -21,6 +21,7 @@
         collection-latexrecommended
         latexmk
         biber
+        titlesec
         ;
     })
   ];
